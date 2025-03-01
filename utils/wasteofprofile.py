@@ -1,8 +1,6 @@
 import requests, json, os
 from datetime import datetime
-
-def printDat(key,data):
-    print("\033[1;33m\033[1m" + key + ": \033[0m\033[0;36m" + data + "\033[0m")
+from wasteofdisplay import printDat
 
 running = True
 
